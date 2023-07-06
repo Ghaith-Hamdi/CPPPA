@@ -1,0 +1,16 @@
+//What is the output of the following snippet ?
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    enum answer { yes, no, whoknows };
+    enum answer a[3];
+    a[0] = no;
+    a[2] = yes;
+    a[1] = whoknows;
+    for (int i = 0; i < 3; i++)
+        cout << a[i];
+    return 0;
+}
+

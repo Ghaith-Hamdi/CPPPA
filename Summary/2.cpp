@@ -1,0 +1,18 @@
+//What is the output of the following snippet ?
+
+#include <iostream>
+using namespace std;
+int var = -1;
+int static Static(int i)
+{
+    static int y = 0;
+    y += ++i;
+    return y;
+}
+int main()
+{
+    var++;
+    Static(var++);
+    cout << var << Static(var);
+}
+
