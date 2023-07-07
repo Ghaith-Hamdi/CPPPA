@@ -4,8 +4,8 @@ int main()
 {
     int x = -2, y;
     float f = 2.5, g;
-    g = x;
-    y = f;
-    cout << (int)g / y;
+    g = x;//g = -2.0
+    y = f;//y = 2
+    cout << (int)g / y;//-2 / 2 = -1
     return 0;
 }
