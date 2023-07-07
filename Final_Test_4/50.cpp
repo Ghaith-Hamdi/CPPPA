@@ -7,4 +7,3 @@ int main()
     cout << float(i) / int(f);
     return 0;
 }
-

@@ -6,6 +6,6 @@ int doit(int i, int j = 0)
 }
 int main()
 {
-    cout << doit(doit(1, 2));
+    cout << doit( doit(1, 2) );
     return 0;
 }

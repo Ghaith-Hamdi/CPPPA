@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Uno {
+class Uno
+{
 public: Uno() { cout << "X"; }
 };
 
@@ -13,7 +14,7 @@ Uno foo(Uno d)
 
 int main()
 {
-    Uno u;
+    Uno u;//X
     foo(u);
     return 0;
 }

@@ -1,11 +1,12 @@
 #include <iostream>
 #include <exception>
 using namespace std;
-int main() {
+int main()
+{
     long i = 2000000000;
     try
     {
-        char* text = new char[i];
+        char* text = new char[i];//prints nothing
     }
     catch (bad_alloc& e)
     {

@@ -1,21 +1,21 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Uno {
+class Uno
+{
 public: ~Uno() { cout << "X"; }
 };
 
 void foo(Uno* d)
 {
     Uno e;
-    *d = e;
+    *d = e;//X
 }
 
 int main()
 {
     Uno* u = new Uno;
     foo(u);
-    delete u;
+    delete u;//X
     return 0;
 }
-

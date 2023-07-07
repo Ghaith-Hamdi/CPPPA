@@ -1,10 +1,13 @@
 //Variable y in class Y, will be...
 
-class X {
+class X
+{
 private:     int x;
 protected:   int y;
 public:      int z;
 };
-class Y : protected X {
+class Y : protected X
+{
 };
 
+//protected => Réponse

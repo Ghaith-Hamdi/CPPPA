@@ -9,4 +9,3 @@ int main()
     cout << (int)g / y;
     return 0;
 }
-

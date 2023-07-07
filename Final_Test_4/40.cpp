@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
     int cnt = 10;
-    do {
+    do 
+    {
         cnt--;
         if (cnt % 3 == 2)
             break;

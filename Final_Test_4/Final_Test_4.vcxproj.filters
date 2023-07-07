@@ -108,13 +108,13 @@
     <ClCompile Include="31.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="32.cpp">
+    <ClCompile Include="32 %28comp error%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="33.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="34.cpp">
+    <ClCompile Include="34 %28comp error%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="35.cpp">

@@ -12,9 +12,9 @@ int main()
 {
     A* a;
     a = new A();
-    a->out();
+    a->out();//A
     a = new B();
-    a->out();
+    a->out();//A //no virtual => type of pointer
+    //B if virtual => type of object pointed to
     return 0;
 }
-

@@ -7,4 +7,3 @@ int main()
     cout << PI2;
     return 0;
 }
-

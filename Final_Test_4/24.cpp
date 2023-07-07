@@ -3,9 +3,8 @@ using namespace std;
 int X = 5;
 int main()
 {
-    cout << "HI!";
+    cout << "HI!";//6 times
     if (X-- > 0)
         main();
     return 0;
 }
-

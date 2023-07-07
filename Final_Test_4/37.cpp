@@ -3,15 +3,14 @@
 using namespace std;
 int calculate(int& val, int arg)
 {
-    val *= arg;
-    return arg;
+    val *= arg;//val = val * arg = 2
+    return arg;//2
 }
 
 int main()
 {
     int i = 1;
-    int j = calculate(i, 2);
+    int j = calculate(i, 2);//j = 2
     cout << i << j;
     return 0;
 }
-
